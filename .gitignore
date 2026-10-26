@@ -1,0 +1,21 @@
+# Every derived artifact under this tree is built from credentialed MIMIC / UMLS data
+# and must never be committed. Only code and documentation are tracked.
+outputs/
+**/outputs/
+logs/
+**/logs/
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.pt
+*.pkl
+*.csv
+*.csv.gz
+*.tsv
+*.out
+*.err
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

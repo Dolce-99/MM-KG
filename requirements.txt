@@ -1,0 +1,18 @@
+# CPU data processing and UMLS concept linking
+pandas
+numpy
+pyarrow
+spacy
+medspacy
+quickumls
+# imaging model, text encoders, GNN consumer, GraphCare baseline
+torch
+torch-geometric
+transformers
+open_clip_torch
+timm
+scikit-learn
+matplotlib
+# LLM inference
+vllm
+tiktoken

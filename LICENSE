@@ -1,0 +1,5 @@
+TODO: choose a license for this repository before release (the reference repositories use
+Apache-2.0; MIT is also common). Replace this file with the full license text.
+
+Note: retrieval/exp4_baselines/graphcare_model.py is derived from the GraphCare authors' code and
+remains under its original MIT License (Copyright (c) 2024 SunLab); see the header of that file.
