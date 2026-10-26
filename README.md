@@ -30,11 +30,11 @@ withheld or corrupted — which is what the paper's factorial and disruption exp
 ## Citation
 
 ```
-@article{mmkg2026,
-  title   = {Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs},
-  author  = {},
-  journal = {Under review},
-  year    = {2026}
+@article{du2026aligning,
+  title={Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs},
+  author={Du, Jiawen and Khan, Arshan Ali and Zhang, Chenhao and Plotkin, Zachary and Shen, Li and Long, Qi and Li, Yun and Chen, Can and Chen, Tianlong and Konz, Nicholas},
+  journal={arXiv preprint arXiv:2610.06685},
+  year={2026}
 }
 ```
 
