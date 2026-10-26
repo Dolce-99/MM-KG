@@ -1,10 +1,6 @@
 # Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs
 
-Official implementation of **MM-KG** (paper under review).
-
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) -->
-
-<p align="center"><img src="figs/overview.png" width="85%"></p>
+<p align="center"><img src="figs/overview.png" width="90%"></p>
 
 MM-KG keeps a patient's multimodal evidence (text, images, codes, measurements, …) and a
 biomedical knowledge graph as two separate layers of one typed graph, joined by explicit
@@ -17,6 +13,8 @@ withheld or corrupted — which is what the paper's factorial and disruption exp
 
 ### Why MM-KG?
 
+<img src="figs/teaser.png" align="right" width="40%" alt="Teaser">
+
 * **Not fusion.** Fused multimodal representations cannot say which observation supported an
   answer, nor be ablated one source at a time. MM-KG can.
 * **Knowledge as explicit links, not background text.** On questions that need both the patient
@@ -26,6 +24,8 @@ withheld or corrupted — which is what the paper's factorial and disruption exp
   retrieval at a fraction of the tokens.
 * **A general backbone.** This repository instantiates the method on MIMIC-IV / MIMIC-CXR with
   PrimeKG; the paper's second instantiation (ADNI) uses the same contract with its own harmonizers.
+
+<br clear="both">
 
 ## Citation
 
@@ -152,16 +152,6 @@ namespace to your knowledge graph's node indices (`graph/build_crosswalk.py`); (
 question families' relation layers and the occult-state rules of your cohort (`LAYER` and
 `LAB_STATES` in `tasks/18_build_composite_wide.py`). Everything downstream runs unchanged.
 
-## Troubleshooting
-
-* **vLLM cannot find `nvcc` / CUDA.** On hosts without `/usr/local/cuda`, point `CUDA_HOME` at the
-  toolkit shipped with the pip wheels (`<env>/lib/python3.11/site-packages/nvidia/cu13`) or set
-  `VLLM_USE_FLASHINFER_SAMPLER=0`.
-* **AUROC exactly 0.500 in every arm.** The model never emitted a yes/no token (reasoning models
-  must be run with thinking disabled; the scripts do this). Check the "without a yes/no token"
-  count the scorer prints.
-* **Comparing arms across jobs.** Scores from different engine instances differ by up to ±0.004
-  AUROC; score all arms of one comparison in one process, as the scripts do.
 
 ## Acknowledgements
 
