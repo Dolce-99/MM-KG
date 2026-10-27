@@ -1,6 +1,6 @@
 # MM-KG: Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs
 
-#### By [Jiawen Du](https://scholar.google.com/citations?user=4-A82CkAAAAJ&hl=en), Arshan Ali Khan\*, Chenhao Zhang\*, [Zachary Plotkin](https://www.linkedin.com/in/zacharyaplotkin/), [Li Shen](https://www.med.upenn.edu/shenlab/), [Qi Long](https://www.med.upenn.edu/long-lab/), [Yun Li](https://yunliweb.its.unc.edu/), [Can Chen](https://sdis.unc.edu/person/can-chen/), [Tianlong Chen](https://tianlong-chen.github.io/) and [Nicholas Konz](https://nickk124.github.io/).
+#### By [Jiawen Du](https://scholar.google.com/citations?user=4-A82CkAAAAJ&hl=en), Arshan Ali Khan\*, [Chenhao Zhang\*](https://github.com/Chance-hao), [Zachary Plotkin](https://www.linkedin.com/in/zacharyaplotkin/), [Li Shen](https://www.med.upenn.edu/shenlab/), [Qi Long](https://www.med.upenn.edu/long-lab/), [Yun Li](https://yunliweb.its.unc.edu/), [Can Chen](https://sdis.unc.edu/person/can-chen/), [Tianlong Chen](https://tianlong-chen.github.io/) and [Nicholas Konz](https://nickk124.github.io/).
 
 \*Equal contribution.
 
